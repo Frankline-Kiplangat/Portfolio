@@ -3,7 +3,7 @@
   background-image:url("https://lh3.googleusercontent.com/proxy/kyBuWaSn__Hz_Cj6oQGaerBZ2hyoHhqi4madj6P2p3FjhVwgLfL-0qm2IUqFo48ya5JFsl57KCy2ywXVl6CLL0s9iOcNzE7APL9xNsBElMmgR_SBKOjLzI4jouAlvxs0PjDKhG9ZPw8");
   background-repeat: no-repeat;
   background-size:cover;
-  font-family: times;
+  font-family: times new roman;
   color: #010303ee;
   text-align: justify ;
   display: block;
@@ -90,7 +90,7 @@ nav>ul>li>a {
         float:left; margin: auto;
       }
         #content #social>ul>li>a {
-          display: block; width: 100px; padding: 5px 0 5px 45px;
+          display: block; width: 100px; padding: 5px 0 5px 30px;
         }
           #content #social ul li a.twitter { background-position: 0 -3px; }
           #content #social ul li a.facebook { background-position: -172px -136px; }

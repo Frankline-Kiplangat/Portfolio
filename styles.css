@@ -1,0 +1,133 @@
+*
+  body{
+  background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ3RXjq4hn6V1b4YeQKgfVk3Av1-tE_OZ11DC7D5nLlXpSsxwkW&usqp=CAU");
+  background-repeat: no-repeat;
+  background-size:cover;
+  font-family: 'Times New Roman', Times;
+  color: #010303ee;
+  text-align: justify ;
+  display: block;
+  margin:0 auto;
+}
+#recent{
+  width: auto;
+  display: flex;
+  padding: 50px;
+}
+*
+html{
+  display: block;
+  margin:0 auto;
+  border: black;
+}
+*
+#recent> .button{
+  color:whitesmoke;
+}
+
+overlay{
+  position: fixed;
+  overflow: auto;
+  z-index: 1;
+}
+nav {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 10px 0;
+  margin-right: auto;
+}
+nav>ul {
+  text-align: justify;
+  font-size: x-large;
+  word-spacing:5px;
+  font-weight: bolder;
+}
+nav>ul>li {
+  display: inline-block;
+  text-overflow: clip;
+}
+nav>ul>li>a {
+  padding: 15px;
+  text-align: center;
+  margin-right: 0;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: block;
+  color: blue
+}
+.column {
+  display: flex;
+  flex-flow: row-reverse;
+  justify-content: space-around;
+}
+#container{
+  padding:8px; margin-top:7px; display:block;
+  width:100%;
+}
+#about{
+  float:left; width:60%; padding:0 20px;
+}
+	
+#recent .portfolio-item {
+	width: 182px; padding: 4px; background: #eee; text-align: center;
+	float: left; margin: 0 7px 14px 7px;
+}
+	#recent .portfolio-item p.button {
+		margin: 0;
+	}
+	#recent .portfolio-item p.button a {
+		display: block; width: 183px; height: 29px; padding: 7px 0 0 0;
+		font-weight: bold; text-align: center; text-transform: uppercase;
+		text-decoration: none;
+	}
+  #content>#social {
+    width: 371px; 
+  }		
+    #content>#social>ul {
+      list-style: -webkit-image-set();
+    }
+      #content #social>ul>li {
+        float:left; margin: auto;
+      }
+        #content #social>ul>li>a {
+          display: block; width: 100px; padding: 5px 0 5px 30px;
+        }
+          #content #social ul li a.twitter { background-position: 0 -3px; }
+          #content #social ul li a.facebook { background-position: -172px -136px; }
+          #content #social ul li a.instagram { background-position: 0 -71px; }
+          #content #social ul li a.linkedin { background-position: -172px -71px;
+           }
+#social{
+display: inline;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 20px;
+  width: 20px;
+  text-align: justify;
+  text-decoration: none;
+  margin: 4px 2px;
+  border-radius: 30%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
